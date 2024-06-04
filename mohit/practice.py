@@ -3,11 +3,11 @@
 print("hello world")
 print("world") 
 
-###variable are place holder for storing data
+"""  variable are place holder for storing data
 variable name cannot start with number (0-4)
 variable are case sensitive(age,Age and AGE all are different variable)
 variable name start with a letter or the underscore char. (a-z,A-Z,_(underscore))
-x(variable name)=12(value to be assigned)###
+x(variable name)=12(value to be assigned)  """
 
 a = 4
 print(a)
@@ -60,3 +60,4 @@ n = None
 print(n)
 print(type(n))
 
+print(a)
