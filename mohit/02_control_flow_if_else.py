@@ -1,7 +1,7 @@
 #control flow 
 
 
-"""a=int(input("enter your  age : "))
+a=int(input("enter your  age : "))
 print("your age is a",a)
 if(a>18):
     print("you can drive")
@@ -16,23 +16,17 @@ if (x>40):
 elif(x<10):
      print("it's a cold day")
 else :
-     print("it's normal day")  """
+     print("it's normal day")  
      
 
-"""x = int(float(input("enter your number : ")))
+x = int(float(input("enter your number : ")))
 if x > 0 :
     print("It's positive number")
 elif x == 0 :
     print("It's zero") 
 else :
-    print("It's negitive numer")     """ 
+    print("It's negitive numer")     
 
-name = ["mohit,rawat"]
-for names in name :
-    print(name)    
-
-for i in name :
-    print(i)    
 
 #range  function
 
