@@ -63,7 +63,7 @@ while i <= 15 :
 
 # Here start is 0 and jump is 1
 
-a = list(range(5))
+a = list(range(5))      #in range start is included end is excluded
 print(a)
 
 
@@ -130,3 +130,33 @@ for i in number :
     if i % 2 == 1:
         print(i)
   
+
+
+for i in range(1,11) :
+    if i % 2 == 1:
+        print(i,end=" ")
+  
+# multipilcation table
+
+
+for i in range(1,11):
+    i *= 5
+    print(i)
+
+
+for i in range(1,11):
+    i /= 5
+    print(i)
+
+for i in range(1,11):
+      i += 5
+      print(i) 
+
+
+
+ '''also doing  with  input function
+ Print Multiplication table '''
+
+n = int(input("enter your number : "))
+for i in range(1,11):
+     print(i * n)
