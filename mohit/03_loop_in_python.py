@@ -154,9 +154,41 @@ for i in range(1,11):
 
 
 
- '''also doing  with  input function
+'''also doing  with  input function
  Print Multiplication table '''
 
 n = int(input("enter your number : "))
 for i in range(1,11):
      print(i * n)
+
+ 
+n = int(input("enter your number : "))
+for i in range(1,11):
+     print(i + n) 
+
+
+
+for i in range(4):
+    for i in range(8):
+     print("#",end=" " )
+    print( "\n")    
+
+for j in range(5):
+   for h in range(7):
+      print("$",end=" ")
+   print("\n")  
+
+
+for i in range (1):
+    for j in range(1):
+        print("#",end=" ")
+    print( )     
+    for k in range(2):
+        print("#",end=" ")   
+    print( ) 
+    for l in range(3):
+        print("#",end=" ")
+    print( )     
+    for m in range(4):
+        print("#",end=" ")   
+    print( )          
