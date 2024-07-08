@@ -77,3 +77,4 @@ for g in marks:
 print(lowest)        
 
 
+g
