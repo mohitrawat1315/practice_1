@@ -63,3 +63,17 @@ for g in marks:
 print(lowest)        
 
 
+marks = [10, 50, 48, 100]   #list  element
+highest = marks[0]
+for i in marks: 
+    if i > highest:
+        highest = i
+print(highest)
+
+lowest = marks[0]
+for g in marks:
+    if g < lowest :
+        lowest = g
+print(lowest)        
+
+
